@@ -52,7 +52,7 @@
                     <p>
                         I'm karpad2, short for Árpád Kovács.
                         <br>
-                        I am a 23 years old backend-focused full-stack web & IoT developer.
+                        I am a <span id="old">23</span> years old backend-focused full-stack web & IoT developer.
                         <br>
                         I love clean code.
                     </p>
@@ -210,8 +210,8 @@ OpenSSL, NaCl
         </div>
     </section>
     <footer class="has-text-centered">
-        <p>
-            &copy; 2020 karpad2
+        <p id="copyright">
+            karpad2
         </p>
     </footer>
 </div>
@@ -223,6 +223,13 @@ OpenSSL, NaCl
     gtag('js', new Date());
 
     gtag('config', 'UA-37379369-3');
+    //
+    
+    function $(id){return document.getElementById(id);}
+    let date=new Date();
+    
+    $("copyright").innerHTML="&copy; "+date.getFullYear()+" karpad2";
+    $("old").innerHTML=" "+date.getFullYear()-1997+" ";
 </script>
 
 </body>
