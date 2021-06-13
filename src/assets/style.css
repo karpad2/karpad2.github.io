@@ -5196,7 +5196,7 @@ a.panel-block:hover {
     color: white;
 }
 #header{
-    background-image: url("img/heading.jpg");
+    background-image: url("heading.jpg");
 }
 
 .hero.is-black .tabs a {
@@ -6255,27 +6255,27 @@ a.panel-block:hover {
     list-style-type: circle;
 }
 
-.home .projects .tile-container article.laravel-barion {
+.home .projects .tile-container article.job3 {
     background: #0097db;
 }
 
-.home .projects .tile-container article.menetrend {
+.home .projects .tile-container article.job2 {
     background: #f4645f;
 }
 
-.home .projects .tile-container article.feki {
+.home .projects .tile-container article.job1 {
     background: #faac2f;
 }
 
-.home .projects .tile-container article.flk {
+.home .projects .tile-container article.job4 {
     background: #4564ae;
 }
 
-.home .projects .tile-container article.indavideo {
+.home .projects .tile-container article.job5 {
     background: #222;
 }
 
-.home .projects .tile-container article.nbf {
+.home .projects .tile-container article.job6 {
     background: #008800;
 }
 
