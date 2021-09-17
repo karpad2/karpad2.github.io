@@ -17,7 +17,7 @@ jobs:
       - run : cp -r dist docs
       - name: Commit files
         run: |
-          git add . 
+          git add -A 
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Publish" -a
