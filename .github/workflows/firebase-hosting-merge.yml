@@ -13,8 +13,7 @@ jobs:
       
       - uses: actions/checkout@v2
       - run: npm install && npm run build
-      - run : mkdir docs
-      - run : cp -r dist docs
+     
       
       - name: Push
         uses: s0/git-publish-subdir-action@develop
