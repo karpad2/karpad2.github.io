@@ -30,7 +30,6 @@ export default ({
     data(){
         return {
           projects: [
-            {"title":"My Job","desc":"I currently work freelancer jobs. I'm designing ER systems for companies in Vue and Laravel based system.","style":"job1","link":null},
             {"title":"Older Projects","desc":"You can check my reference jobs on my GITHUB page.","style":"job2","link":"https://github.com/karpad2/"},
             {"title":"GRBL interface for CNC","desc":"It is an interface for GRBL CNC controller program, written in Node.JS.","style":"job3","link":"https://github.com/karpad2/grblinterface"},
             {"title":"Rebol VS Code Extension","desc":"It is an Visual Studio Code extension, snippets and syntax highlighting for Rebol language in TypeScript.","style":"job4","link":"https://github.com/karpad2/vscode_rebol"},
