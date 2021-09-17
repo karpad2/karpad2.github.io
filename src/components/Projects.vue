@@ -7,17 +7,13 @@
       <div class="container">
             <div class="tile-container">
                 <div class="tile is-ancestor">
-                    <div class="tile is-vertical is-8">
+                    <div class="tile is-vertical">
                         <div class="tile">
                            <div class="tile is-parent" v-for="project in projects" :key="project.title">
-                               
-                               <Project :project="project"/>                                
-                            
+                                <Project :project="project"/>                                
                             </div>
                         </div>
 
-                    </div>
-                    <div class="tile is-parent is-vertical">
                     </div>
                 </div>
                 </div>
