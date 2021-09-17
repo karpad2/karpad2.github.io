@@ -25,12 +25,13 @@ export default ({
         skills:[
            {"title":"IoT","desc":"IoT developing \nCustom PCB design \nCustom webserver design","style":"laravel"},
            {"title":"PHP","desc":"... the right way \n \nSOLID; PSR \nComposer \nDrupal","style":"php"},
-           {"title":"HTML 5","desc":"","style":"html5"},
+           {"title":"Firebase","desc":"Firebase RTDB,\n Collections,\n Authentication","style":"html5"},
            {"title":"JavaScript","desc":"Vue, jQuery \nES6 \nNode / NPM / Yarn \nWebpack, Gulp","style":"css"},
-           {"title":"CSS 3","desc":"SCSS / LESS \nBootstrap, Bulma \nAnimations","style":"javascript"},
-           {"title":"Git","desc":"Branching \nMerge, Rebase \nGitHub, GitLab","style":"git"},
-           {"title":"Linux","desc":"Debian Server \nNginx, Apache2, PHP, MySQL \nMemcached, Redis","style":"linux"},
-           {"title":"Security","desc":"OWASP \nAES, RSA, HMAC \nOpenSSL, NaCl","style":"security"}
+           {"title":"CSS 3","desc":"SCSS / LESS \n, Bulma \nAnimations","style":"javascript"},
+           {"title":"Javascript Frameworks","desc":"Vue,\n React,\n based applications","style":"javascript"},
+           {"title":"Git","desc":"Branching \nMerge, Rebase,\n Actions \nGitHub","style":"git"},
+           {"title":"Linux","desc":"Ubuntu Server \n Apache2, PHP, MySQL \nMemcached, Redis","style":"linux"},
+           {"title":"Security","desc":"OWASP \nAES, RSA, HMAC \nOpenSSL","style":"security"}
        ]
    }}
 })
