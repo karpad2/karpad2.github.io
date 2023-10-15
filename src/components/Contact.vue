@@ -2,8 +2,8 @@
  <section class="contact" id="contact">
         <h2 class="title is-1 has-text-centered">Contact</h2>
         <div class="container has-text-centered">
-            <a href="mailto:karpad2@gmail.com">
-                karpad2@gmail.com
+            <a href="mailto:info@kasoft.co.uk">
+                info@kasoft.co.uk
             </a>
         </div>
     </section>
